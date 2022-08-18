@@ -1,0 +1,130 @@
+<!--emmet package is really useful on a tag shortcut basis -->
+<!--try docs.emmet.io/cheat-sheet/ for a list of tag short cuts-->
+<!DOCTYPE html>
+<!--this tells the browser to render this file as an HTML5 document..If want to see other html version, try "html:4t" and enter -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--all the text in the webpage is using UTF-8 enconding, includes all international encodes -->
+  <!-- there are many meta tage attributes that helps search engine to catch the key word and description and shortcut of the site. CHeck MDN for more info -->
+  <title>Alice's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td><img src="https://i.pinimg.com/originals/e0/3b/e0/e03be0d9ea0f716eb57f9dfe3e27c4c6.jpg" alt="Alice's Profile Picture" width="200" height="200"></td>
+      <td>
+        <h1>Alice Lin</h1>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="0539.jpg" alt="if Alice get tanned" width="200" height="200"></td>
+      <td>
+        <p><em>Student of BCIT <a href="https://www.bcit.ca/programs/full-stack-web-development-diploma-full-time-7540dipma/" target="blank">Full Stack Web Development Program</a> starting September 2022</em>
+        </p>
+        <p>
+          I am going to become a web developer in two years, and I love cold brew tea.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <hr size="2" noshade>
+
+  <h3>Books and Songs</h3>
+  <ul>
+    <li><b><i>Favorite Books</i></b></li>
+    <ul>
+      <li>Harry Potter</li>
+      <li>Atomic Habits</li>
+      <li>The Secret</li>
+      <li>*Actually I'm not a big fan of books......</li>
+    </ul>
+    <br>
+    <li><b><i>Favorite Songs</i></b></li>
+    <ul>
+      <li><a href="https://www.youtube.com/results?search_query=%E4%BA%94%E6%9C%88%E5%A4%A9">五月天的歌</a></li>
+      <li><a href="https://www.youtube.com/watch?v=LbvepFeK0Fs&t=89s">张哲瀚的歌</a></li>
+      <li><a href="https://www.youtube.com/watch?v=1_4ELAxKrDc">The Motto</a></li>
+      <li><a href="https://www.youtube.com/watch?v=YF1eYbfbH5k">Interstellar movie Soundtracks</a></li>
+    </ul>
+  </ul>
+
+  <hr size="2" noshade>
+
+  <h3>Work and Study Experience</h3>
+  <table cellspacing="10" border="1">
+    <thead>
+      <tr>
+        <th>Year</th> <!-- header style-->
+        <th>Location</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2011-2016</td>
+        <!--this is the cell content in one row, add more td tags to get more cells/columns for one row -->
+        <td>Simon Fraser University</td>
+        <td>Business Bachelor Degree</td>
+      </tr>
+      <tr>
+        <td>2017-2022</td>
+        <td>RCI Capital Group Inc.</td>
+        <td>Research Analyst</td>
+      </tr>
+      <tr>
+        <td>2022 Sept</td>
+        <td>BCIT</td>
+        <td>Student</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+  </table>
+
+  <!--LEARN TO BUILD NESTED TABLES-->
+  <!--To create a 1-row-2-columns table, each column contains a table with multiple rows and two columns-->
+  <h3>Skills</h3>
+  <table cellspacing="10" border="1">
+    <tr>  <!--Main Table row One START-->
+      <td>   <!--main table column one-->
+        <table cellspacing="10" border="1">  <!--nested table with 2 rows and 2 columns-->
+          <tr> <!--nested row 1-->
+            <td><strong>HTML</strong></td>
+            <td>★★</td>
+          </tr>
+          <tr>    <!--nested row 2-->
+            <td><strong>CSS</strong></td>
+            <td>★</td>
+          </tr>
+        </table>
+      </td>
+
+      <td>  <!--main table column two-->
+        <table cellspacing="10" border="1">
+          <tr>
+            <td><strong>Photoshop</strong></td>
+            <td>★</td>
+          </tr>
+          <tr>
+            <td><strong>Microsoft Excel</strong></td>
+            <td>★★★★</td>
+          </tr>
+        </table>
+      </td>
+    </tr>  <!--Main Table row One END-->
+
+  </table>
+
+
+
+  <hr size="2" noshade>
+  <h3><a href="hobbies.html">My Hobbies</a></h3>
+  <h3><a href="Contact_Me.html">Contact Me</a></h3>
+</body>
+
+</html>
